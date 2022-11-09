@@ -597,7 +597,7 @@ var MemeListSlider_MemeList = function MemeList() {
   }, []);
   return react_default.a.createElement("div", {
     className: "meme__header"
-  }, react_default.a.createElement("h2", null, "Memes that take up my storage"), react_default.a.createElement("p", null, "Pick a meme"), react_default.a.createElement("div", {
+  }, react_default.a.createElement("h2", null, "Memes that take up my storage"), react_default.a.createElement("p", null, "Pick a meme from the great meme roll"), react_default.a.createElement("div", {
     className: "meme__wrapper"
   }, isLoading ? react_default.a.createElement(layout_Loader, null) : react_default.a.createElement(lib_default.a, settings, memes.map(function (meme) {
     return react_default.a.createElement(MemeItem, {
