@@ -236,12 +236,12 @@ label:hover[for=file] {
     z-index: 1
 }
 
-<!--background: #FFB13D;-->
+<!--background-image: linear-gradient(to right top, #ffb13d, #ffc445, #ffd651, #ffe95f, #fffb70);-->
 
 .navigation {
     width: 100%;
     height: 70px;
-  	background-image: linear-gradient(to right top, #ffb13d, #ffc445, #ffd651, #ffe95f, #fffb70);
+    background: #FFB13D;
     display: flex;
     align-items: center;
     padding: 0 10%
