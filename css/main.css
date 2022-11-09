@@ -236,11 +236,10 @@ label:hover[for=file] {
     z-index: 1
 }
 
-
 .navigation {
     width: 100%;
     height: 70px;
-    background: #FFB13D;
+  	background: #FFB13D;
     display: flex;
     align-items: center;
     padding: 0 10%
