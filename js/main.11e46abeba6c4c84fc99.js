@@ -940,7 +940,7 @@ function (_Component) {
         className: "meme__form-control"
       }, react_default.a.createElement("span", {
         className: "meme__form-title"
-      }, "Top Text"), react_default.a.createElement("div", {
+      }, "Bottom Text"), react_default.a.createElement("div", {
         className: "meme__form-wrapper"
       }, react_default.a.createElement("input", {
         onChange: this.onBottomTextChange,
