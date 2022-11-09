@@ -239,7 +239,8 @@ label:hover[for=file] {
 .navigation {
     width: 100%;
     height: 70px;
-    background: #FFB13D;
+  	--background: #FFB13D;
+  	background-image: linear-gradient(to right top, #ffb13d, #ffc445, #ffd651, #ffe95f, #fffb70);
     display: flex;
     align-items: center;
     padding: 0 10%
