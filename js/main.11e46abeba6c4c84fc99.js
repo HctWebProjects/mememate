@@ -597,7 +597,7 @@ var MemeListSlider_MemeList = function MemeList() {
   }, []);
   return react_default.a.createElement("div", {
     className: "meme__header"
-  }, react_default.a.createElement("h2", null, "Popular Memes"), react_default.a.createElement("p", null, "Pick one in the list to make a meme"), react_default.a.createElement("div", {
+  }, react_default.a.createElement("h2", null, "Memes that take up my storage"), react_default.a.createElement("p", null, "Pick a meme"), react_default.a.createElement("div", {
     className: "meme__wrapper"
   }, isLoading ? react_default.a.createElement(layout_Loader, null) : react_default.a.createElement(lib_default.a, settings, memes.map(function (meme) {
     return react_default.a.createElement(MemeItem, {
@@ -985,7 +985,7 @@ var Navigation_Navigation = function Navigation() {
     className: "navigation"
   }, react_default.a.createElement("span", {
     className: "navigation__title"
-  }, "Memefy"), react_default.a.createElement(layout_UploadButton, {
+  }, "Mememate!"), react_default.a.createElement(layout_UploadButton, {
     setSelectedImage: state.setSelectedImage
   }));
 };
